@@ -9,11 +9,11 @@
 
 ## 🎨 Screenshots
 
-![alt text](image.png)> **Dashboard View:** Shows summary cards with animated counters, monthly spending chart, and category pie chart.
+![alt text](src/assets/image.png)> **Dashboard View:** Shows summary cards with animated counters, monthly spending chart, and category pie chart.
 
-![alt text](image-1.png)> **Transactions View:** Features a full data table, CSV export, multi-field filtering, and the add/edit modal.
+![alt text](src/assets/image-1.png)> **Transactions View:** Features a full data table, CSV export, multi-field filtering, and the add/edit modal.
 
-![alt text](image-2.png)> **Insights View:** visualizes a 3-month spending trend, category breakdown, and monthly savings comparison.
+![alt text](src/assets/image-2.png)> **Insights View:** visualizes a 3-month spending trend, category breakdown, and monthly savings comparison.
 
 ---
 
@@ -58,7 +58,7 @@ State is kept out of local component memory unless it is strictly UI logic (e.g.
 - **Derived State Hook:** Advanced filtering is executed cleanly via a custom `useFilteredTransactions` hook which memoizes (`useMemo`) the filtered array based on active criteria securely without mutating the base data store.
 
 ### Role-Based UI
-Security through UX mapping. By switching between **Admin** and **Viewer**:
+Role simulation is handled purely on the frontend for demonstration purposes. By switching between **Admin** and **Viewer**:
 - Admins see the "+ Add Transaction" CTA and row-level Edit/Delete actionable icons.
 - Viewers have the exact same analytical experience and data access but with data-mutation entry points structurally omitted from the DOM.
 
@@ -70,7 +70,7 @@ Follow these steps to get the project running locally on your machine.
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/finance-dashboard.git
+git clone https://github.com/Mourya3009/finance_dashboard.git
 cd finance-dashboard
 ```
 
