@@ -9,14 +9,11 @@
 
 ## 🎨 Screenshots
 
-*[ Add a screenshot of the main dashboard here ]*
-> **Dashboard View:** Shows summary cards with animated counters, monthly spending chart, and category pie chart.
+![alt text](image.png)> **Dashboard View:** Shows summary cards with animated counters, monthly spending chart, and category pie chart.
 
-*[ Add a screenshot of the transactions table here ]*
-> **Transactions View:** Features a full data table, CSV export, multi-field filtering, and the add/edit modal.
+![alt text](image-1.png)> **Transactions View:** Features a full data table, CSV export, multi-field filtering, and the add/edit modal.
 
-*[ Add a screenshot of the insights page here ]*
-> **Insights View:** visualizes a 3-month spending trend, category breakdown, and monthly savings comparison.
+![alt text](image-2.png)> **Insights View:** visualizes a 3-month spending trend, category breakdown, and monthly savings comparison.
 
 ---
 
